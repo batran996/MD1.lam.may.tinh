@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td colspan="4"><input type="text" id="calculator"></td>
+    </tr>
+    <tr>
+        <td><input value="1" type="button"  onclick="inputNumber('1')"></td>
+        <td><input value="2" type="button" onclick="inputNumber('2')"></td>
+        <td><input value="3" type="button"  onclick="inputNumber('3')"></td>
+        <td><input value="+" type="button" onclick="inputNumber('+')"></td>
+    </tr>
+    <tr>
+        <td><button type="button" onclick="inputNumber('4')">4</button></td>
+        <td><button type="button" onclick="inputNumber('5')">5</button></td>
+        <td><button type="button" onclick="inputNumber('6')">6</button></td>
+        <td><button type="button" onclick="inputNumber('-')">-</button></td>
+    </tr>
+    <tr>
+        <td><button type="button" onclick="inputNumber('7')" >7</button></td>
+        <td><button type="button" onclick="inputNumber('8')">8</button></td>
+        <td><button type="button" onclick="inputNumber('9')">9</button></td>
+        <td><button type="button" onclick="inputNumber('*')">x</button></td>
+    </tr>
+    <tr>
+        <td><button type="button" onclick="clears()">C</button></td>
+        <td><button type="button" onclick="inputNumber('0')">0</button></td>
+        <td><button type="button" onclick="result()">=</button></td>
+        <td><button type="button" onclick="inputNumber('/')">/</button></td>
+        <td onclick="canBacHai()">√x</td>
+    </tr>
+</table>
+<script src="crit.js"></script>
+
+</body>
+</html>
